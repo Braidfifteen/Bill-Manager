@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Password-Manager-Application", "Password-Manager-Application.csproj", "{4199FA8A-0995-42B0-A00C-6A04DEFBF436}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bill-Manager-Application", "Bill-Manager-Application.csproj", "{4199FA8A-0995-42B0-A00C-6A04DEFBF436}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

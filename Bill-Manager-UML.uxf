@@ -95,10 +95,10 @@ double monthlyAmount, DateTime monthlyDue){}
 &lt;&lt;Properties&gt;&gt;
 
 -- public 
-double TotalAmountOwed() {}
-double MonthlyAmountOwed() {}
-DateTime MonthlyDueDate() {}
-bool IsPayed() {}
+double TotalAmountOwed {}
+double MonthlyAmountOwed {}
+DateTime MonthlyDueDate {}
+bool IsPayed {}
 </panel_attributes>
     <additional_attributes/>
   </element>
