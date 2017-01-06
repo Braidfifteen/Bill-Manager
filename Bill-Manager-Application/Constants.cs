@@ -9,7 +9,8 @@ namespace Password_Manager_Application
         private static readonly string docName = @"\UserData.bin";
         private static readonly string docPath = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
         private static readonly string fileName;
-        #endregion
+
+        #endregion "Fields"
 
         #region Constructors
 
@@ -17,11 +18,13 @@ namespace Password_Manager_Application
         {
             fileName = docPath + docName;
         }
-        #endregion
+
+        #endregion "Constructors"
 
         #region Properties
 
         public static string FileName { get { return fileName; } }
-        #endregion
+
+        #endregion "Properties"
     }
 }

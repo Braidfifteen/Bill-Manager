@@ -12,7 +12,8 @@ namespace Password_Manager_Application
         private double monthlyAmountOwed;
         private DateTime monthlyDueDate;
         bool isPayedForMonth;
-        #endregion
+
+        #endregion "Fields"
 
         #region Constructors
 
@@ -23,15 +24,17 @@ namespace Password_Manager_Application
             monthlyAmountOwed = monthlyOwed;
             monthlyDueDate = monthlyDue;
         }
-        #endregion
 
-        #region Properties
+        #endregion "Constructors"
+
+        #region Properties 
 
         public string Name { get { return name; } }
         public double TotalAmountOwed { get { return totalAmountOwed; } }
         public double MonthlyAmountOwed { get { return monthlyAmountOwed; } }
         public DateTime MonthlyDueDate { get { return monthlyDueDate; } }
         public bool IsPayedForMonth { get { return isPayedForMonth; } }
-        #endregion
+
+        #endregion "Properties"
     }
 }

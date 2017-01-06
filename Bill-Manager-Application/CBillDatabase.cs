@@ -3,19 +3,29 @@ using System.Collections.Generic;
 
 namespace Password_Manager_Application
 {
+
+    // This class stores all of the users saved bills in a list
     class CBillDatabase
     {
         #region Fields
 
         private static CBillDatabase sharedInstance;
-
         private List<CBill> database;
-        #endregion
+
+        #endregion "Fields"
+
+
+
+
 
         #region Constructors
 
         private CBillDatabase() {}
-        #endregion
+
+        #endregion "Constructors"
+
+
+
 
         #region Properties
 
@@ -44,7 +54,11 @@ namespace Password_Manager_Application
                 database = value;
             }
         }
-        #endregion
+
+        #endregion "Properties"
+
+
+
 
         #region Methods
 
@@ -62,6 +76,7 @@ namespace Password_Manager_Application
         //{
 
         //}
-        #endregion
+
+        #endregion "Methods"
     }
 }

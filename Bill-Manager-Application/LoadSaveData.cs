@@ -52,6 +52,7 @@ namespace Password_Manager_Application
                     break;
             }
         }
-        #endregion
+
+        #endregion "Methods"
     }
 }
